@@ -1,0 +1,14 @@
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-around !important;
+}
+
+.single {
+    display: flex;
+    justify-content: center;
+}
+
+.span {
+    position: fixed;
+}

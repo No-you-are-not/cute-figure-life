@@ -1,0 +1,20 @@
+.container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-family: "Apple LiGothic";
+}
+
+.title {
+    padding-top: 40px;
+    font-size: 70px;
+    color: black;
+}
+
+.subtitle {
+    padding-top: 30px;
+    font-size: 50px;
+    color: lightpink;
+}

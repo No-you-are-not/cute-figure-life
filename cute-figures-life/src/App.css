@@ -1,0 +1,70 @@
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+}
+
+.button {
+  position: fixed;
+  top: 210px;
+  left: 220px;
+  font-family: "Apple LiGothic";
+  font-size: 20px;
+  display: flex;
+  z-index: 3;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.arrow {
+  transform: rotate(180deg);
+  margin-right: 10px;
+}
+
+.body {
+  width: 100%;
+}
+
+.switch {
+  position: fixed;
+  top: 210px;
+  right: 220px;
+  border-radius: 5px;
+  display: flex;
+  border: 1px solid black;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.switch div {
+  height: 20px;
+  font-family: "Apple LiGothic";
+  padding: 10px;
+}
+
+.black {
+  background-color: black;
+  color: white;
+}
+
+.white {
+  color: black;
+  background-color: white;
+}
